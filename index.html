@@ -1,0 +1,101 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Food Express</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">🍔 Food Express</div>
+
+    <nav>
+      <a href="#home">Início</a>
+      <a href="#menu">Cardápio</a>
+      <a href="#contact">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>A Melhor Comida da Cidade</h1>
+      <p>Peça agora pelo WhatsApp</p>
+
+      <a
+        href="https://wa.me/5585999999999?text=Olá,%20quero%20fazer%20um%20pedido!"
+        target="_blank"
+        class="btn"
+      >
+        Pedir no WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <h2>Nosso Cardápio</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1200&auto=format&fit=crop" alt="">
+        <h3>Hambúrguer Artesanal</h3>
+        <p>Pão brioche, cheddar e carne especial.</p>
+        <span>R$ 29,90</span>
+
+        <button onclick="pedido('Hambúrguer Artesanal')">
+          Pedir
+        </button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1200&auto=format&fit=crop" alt="">
+        <h3>Pizza Especial</h3>
+        <p>Mussarela, calabresa e molho da casa.</p>
+        <span>R$ 49,90</span>
+
+        <button onclick="pedido('Pizza Especial')">
+          Pedir
+        </button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop" alt="">
+        <h3>Prato Executivo</h3>
+        <p>Arroz, feijão, carne e salada.</p>
+        <span>R$ 24,90</span>
+
+        <button onclick="pedido('Prato Executivo')">
+          Pedir
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contato</h2>
+
+    <p><strong>📍 Endereço:</strong> Rua das Flores, 123 - Fortaleza/CE</p>
+
+    <p><strong>📞 Telefone:</strong> (85) 99999-9999</p>
+
+    <a
+      href="https://wa.me/5585999999999"
+      target="_blank"
+      class="btn"
+    >
+      Chamar no WhatsApp
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2026 Food Express - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
